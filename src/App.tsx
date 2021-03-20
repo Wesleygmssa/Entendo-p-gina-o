@@ -1,5 +1,11 @@
+import { Header } from "./Header";
+import { Container } from "./styles";
 function App() {
-  return <div>Teste</div>;
+  return (
+    <Container>
+      <Header title="O que vamos fazer hoje" />
+    </Container>
+  );
 }
 
 export default App;
